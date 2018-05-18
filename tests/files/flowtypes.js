@@ -10,3 +10,5 @@ export type MyType = {
 export interface MyInterface {}
 
 export class MyClass {}
+
+export opaque type MyOpaqueType: string = string;
